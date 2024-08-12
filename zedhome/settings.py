@@ -107,14 +107,7 @@ CSRF_TRUSTED_ORIGINS = ["https://*.on-arcon.io", "http://*.on-arcon.io" ]
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME':'nyumbaDB',
-        'USER': 'simbarashe',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
-        "PORT": os.getenv("POSTGRES_PORT", 5432),
-    }
+
 }
 
 # Password validation
